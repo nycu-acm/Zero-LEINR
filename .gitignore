@@ -1,0 +1,10 @@
+*.log
+*.png
+*.mat
+gitlog.txt
+results/*
+tb_logger/*
+snapshots/*
+.idea/*
+*/**/__pycache__/
+__pycache__
