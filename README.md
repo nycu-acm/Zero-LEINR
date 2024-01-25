@@ -4,6 +4,10 @@
 
 **Official Pytorch implementation for the paper accepted by [ISCAS 2023](https://ieeexplore.ieee.org/document/10181743).**
 
+# Abstract 
+
+Zero-reference deep learning-based methods for low-light image enhancement sufficiently mitigate the difficulty of paired data collection while keeping the great generalization on various lighting conditions, but color bias and unintended intrinsic noise amplification are still issues that remain unsolved. In this paper, we propose a zero-reference end-to-end two-stage network (Zero-LEINR) for low-light image enhancement with intrinsic noise reduction. In the first stage, we introduce a Color Preservation and Light EnhancementBlock (CPLEB) that consists of a dual branch structure with different constraints to correct the brightness and preserve the correct color tone. In the second stage, Enhanced-NoiseReduction Block (ENRB) is applied to remove the intrinsic noises being enhanced during the first stage. Due to the zero-reference two-stage structure, our method can enhance the low-light image with the correct color tone on unseen datasets and reduce the intrinsic noise at the same time.
+
 ## Python Requirements
 
 This code was tested on:
